@@ -1,0 +1,180 @@
+/*Selector CSS*/
+
+body{
+	background-image: url(http://localhost:8080/gruppe18/ue3/pics/humans-vs-robots.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+									/*table style*/
+table {
+	background-color: #f2f2f2;
+	border-radius: 10%;
+	text-shadow: 0 0 5px white;
+	color: #292B53;
+	font-family: 'Roboto', sans-serif;
+	border-collapse: collapse;
+	width: 15%;
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+th, td {
+	text-align: center;
+	padding: 8px;
+}
+									/*radio buttons style*/
+.radio_button{
+	margin: 0;
+	position: absolute;
+ 	top: 9%;
+ 	left: 50%;
+ 	-ms-transform: translate(-50%, -50%);
+ 	transform: translate(-50%, -50%);
+ }
+									/*image style*/
+.image1{
+	border: 5px solid #AEB0FF;
+	border-radius: 50%;
+	display: block;
+	margin-top: 10%;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100px;
+}
+.image2{
+	border: 5px solid #AEB0FF;
+	border-radius: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100px;
+}
+.image3{
+	border: 5px solid #AEB0FF;
+	border-radius: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100px;
+}
+.image1:hover {
+	box-shadow: 2px 2px 8px black;
+ 	border: 6px solid white;
+}
+.image2:hover {
+	box-shadow: 2px 2px 8px black;
+ 	border: 6px solid white;
+}
+.image3:hover {
+	box-shadow: 2px 2px 8px black;
+ 	border: 6px solid white;
+}
+									/*centered text*/
+.text_center{
+	color:white;
+	text-shadow: 2px 2px 8px black;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+}
+									/*round result*/
+.round_result {
+	font-family: 'Roboto', sans-serif;
+	color:white;
+	text-shadow: 2px 2px 8px black;
+	margin: 0;
+	position: absolute;
+	top: 12%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+ 	text-align: justify;
+}
+									/*font size*/
+.font_size_30px {
+	font-size: 30px;
+}
+.font_size_130px {
+	font-size: 130px;
+}
+									/*classes for displaying score*/
+div.human_score {
+	color:white;
+	text-shadow: 2px 2px 8px black;
+	font-family: 'Roboto', sans-serif;
+	font-size: 120px;
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 80%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+ 	width: 60px;
+ 	height: 120px;
+ 	text-align: justify;
+}
+div.com_score {
+	color:white;
+	text-shadow: 2px 2px 8px black;
+	font-family: 'Roboto', sans-serif;
+	font-size: 120px;
+	margin: 0;
+	position: absolute;
+ 	top: 50%;
+ 	left: 20%;
+ 	-ms-transform: translate(-50%, -50%);
+ 	transform: translate(-50%, -50%);
+	width: 60px;
+	height: 120px;
+	text-align: justify;
+}
+
+									/*new game link style*/
+a:link, a:visited {
+	box-shadow: 2px 2px 8px black;
+	border-radius: 10%;
+	font-family: 'Roboto', sans-serif;
+	text-shadow: 2px 2px 8px black;
+	margin: 0;
+	position: absolute;
+ 	top: 80%;
+ 	left: 50%;
+ 	-ms-transform: translate(-50%, -50%);
+ 	transform: translate(-50%, -50%);
+ 	background-color: #AEB0FF;
+ 	color: white;
+ 	padding: 15px 25px;
+ 	text-align: center;
+ 	text-decoration: none;
+ 	display: inline-block;
+}
+a:hover, a:active {
+	background-color: #FC34AB;
+}
+									/*rules style*/
+.how_to_play {
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-size: 25px;
+	color:white;
+	text-shadow: 2px 2px 8px black;
+	margin-right: 15%;
+	margin-left: 15%;
+}
+p.info_red {
+	text-shadow: 2px 2px 8px white;
+	color: #292B55;
+}
+/* that was button how to play, what i don't need anymore
+button style
+.button {
+	margin: 0;
+	position: absolute;
+ 	top: 9%;
+ 	left: 50%;
+ 	-ms-transform: translate(-50%, -50%);
+ 	transform: translate(-50%, -50%);
+}
+*/
