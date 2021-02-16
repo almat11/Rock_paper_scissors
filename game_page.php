@@ -39,6 +39,7 @@
         		}
       		?>
     	</div>
+<!--*** Do not display it, this is (old)image form version
 		<form method="get" action="action_page.php">
 			<div>
 			<input type="radio" id="Rock" name="user_choice" value="Rock">
@@ -50,16 +51,18 @@
 			<input type="submit" name="submit" value="Submit">
 			</div>
 		</form> 
-<!--*** Do not display it, this is (old)image form version
+***-->
+
 		<form method="get" action="action_page.php">
 			<input class="image1" type="image" src="http://localhost:8080/gruppe18/ue3/pics/rock.png" alt="Rock" name="user_choice" value="Rock" title="Rock"><br><br>
 			<input class="image2" type="image" src="http://localhost:8080/gruppe18/ue3/pics/paper.png" alt="Paper" name="user_choice" value="Paper" title="Paper"><br><br>
 			<input class="image3" type="image" src="http://localhost:8080/gruppe18/ue3/pics/scissors.png" alt="Scissors" name="user_choice" value="Scissors" title="Scissors"> <br><br>
 		</form> 
-
+<!--***
 		<img class="image1" src="http://localhost:8080/gruppe18/ue3/pics/rock.png" alt="Rock"><br><br>
 		<img class="image2" src="http://localhost:8080/gruppe18/ue3/pics/paper.png" alt="Paper"><br><br>
 		<img class="image3" src="http://localhost:8080/gruppe18/ue3/pics/scissors.png" alt="Scissors"> <br><br>
+
 ***-->
     	<br>
 		<div class="text_center">
